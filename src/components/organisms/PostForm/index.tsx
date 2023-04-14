@@ -47,7 +47,6 @@ const PostForm = () => {
         if (formData.edit) {
             posts = existingPosts;
             const postIndex = existingPosts.findIndex((post: FormData) => post.id === formData.id);
-            console.log(postIndex, formData);
             if (postIndex !== -1) {
                 posts[postIndex].title = formData.title
                 posts[postIndex].link = formData.link

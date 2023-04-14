@@ -3,7 +3,6 @@ import Text from '../../components/atoms/Text';
 import Container from '../../components/templates/Container';
 
 const About = () => {
-    console.log('entro');
     return (
         <Container>
             <Text type='title'>About</Text>
